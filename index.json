@@ -60,7 +60,7 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1795088665,
+          "publishTimestamp": 1795091476,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -100,8 +100,8 @@
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1795088665,
+          "version": "0.1.1",
+          "publishTimestamp": 1795091476,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -140,7 +140,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1795088665,
+          "publishTimestamp": 1795091476,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
