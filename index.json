@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Alonstech DSH plugins",
+    "zh": "Alonstech DSH 插件"
+  },
+  "description": {
+    "en": "Plugins built and maintained by Alonstech for DeepSeek Harness.",
+    "zh": "Alonstech 为 DeepSeek Harness 开发和维护的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "content": {
+        "title": {
+          "en": "Content",
+          "zh": "内容创作"
+        }
+      },
+      "research": {
+        "title": {
+          "en": "Research",
+          "zh": "研究分析"
+        }
+      },
+      "platform": {
+        "title": {
+          "en": "Platform",
+          "zh": "平台集成"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@alonstech/dsh-model-sync",
+      "title": {
+        "en": "Alonstech model sync"
+      },
+      "description": {
+        "en": "Keeps the Alonstech employee AI gateway model list in sync with DSH settings, so new gateway models appear without editing configuration."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "model-sync"
+      },
+      "metadata": {
+        "category": "platform",
+        "keywords": [
+          "models",
+          "gateway",
+          "settings",
+          "sync"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795088665,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/model-sync.svg"
+    },
+    {
+      "name": "@alonstech/dsh-social-studio",
+      "title": {
+        "en": "Social studio",
+        "zh": "社交工作室"
+      },
+      "description": {
+        "en": "Asks a short questionnaire, then renders social images and per-platform captions into a local copy-paste panel.",
+        "zh": "先问几个问题，然后生成社交图片和各平台文案，并写入本地的复制面板。"
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "social-studio"
+      },
+      "metadata": {
+        "category": "content",
+        "keywords": [
+          "social",
+          "images",
+          "marketing",
+          "copywriting"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795088665,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/social-studio.svg"
+    },
+    {
+      "name": "@alonstech/dsh-weaver-market-intelligence",
+      "title": {
+        "en": "Weaver market intelligence"
+      },
+      "description": {
+        "en": "Market intelligence for GIS Weaver and LAS Weaver. Supplies product context and a research playbook for the agent to discover, evaluate, self-critique, and rank potential clients, then saves the ranked results as CSV and visual HTML dashboards with charts, trends, and outreach strategy recommendations."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "weaver-market-intel"
+      },
+      "metadata": {
+        "category": "research",
+        "keywords": [
+          "market research",
+          "lead generation",
+          "gis",
+          "dashboards"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795088665,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/weaver-market-intel.svg"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Alonstech model sync">
+  <!-- Two arrows chasing each other: keep the gateway model list in sync -->
+  <circle cx="18" cy="18" r="15.5" fill="none" stroke="#0f766e" stroke-width="1.4" opacity="0.35"/>
+  <path d="M9 18a9 9 0 0 1 15.4-6.4" fill="none" stroke="#0f766e" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M24.4 8.2v4.6h-4.6" fill="none" stroke="#0f766e" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 18a9 9 0 0 1-15.4 6.4" fill="none" stroke="#14b8a6" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M11.6 27.8v-4.6h4.6" fill="none" stroke="#14b8a6" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
