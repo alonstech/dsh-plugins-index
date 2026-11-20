@@ -60,7 +60,7 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1795091476,
+          "publishTimestamp": 1795146428,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -101,7 +101,7 @@
       "versions": [
         {
           "version": "0.1.1",
-          "publishTimestamp": 1795091476,
+          "publishTimestamp": 1795146428,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -140,7 +140,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1795091476,
+          "publishTimestamp": 1795146428,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -151,6 +151,45 @@
         }
       ],
       "icon": "icons/weaver-market-intel.svg"
+    },
+    {
+      "name": "@alonstech/dsh-weaver-pr-cockpit",
+      "title": {
+        "en": "Weaver PR cockpit"
+      },
+      "description": {
+        "en": "A read-only view of the Weaver pull-request queue and its merge loop. Shows every open PR with the single reason it is not merged yet, whether the merge loop already owns it or a person has to act, the risk lane, and how long it has been in that state, plus what the loop last refused, which develop batches ran, and how the last UAT roll ended. Reads only the local mirror, the queue and the loop's own logs: it never calls GitHub, never merges, and never writes into the repository."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "weaver-pr-cockpit"
+      },
+      "metadata": {
+        "category": "platform",
+        "keywords": [
+          "pull requests",
+          "code review",
+          "merge queue",
+          "gisweaver"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1795146428,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/weaver-pr-cockpit.svg"
     }
   ]
 }
