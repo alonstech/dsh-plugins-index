@@ -60,7 +60,7 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1795150722,
+          "publishTimestamp": 1795224843,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -101,7 +101,7 @@
       "versions": [
         {
           "version": "0.1.1",
-          "publishTimestamp": 1795150722,
+          "publishTimestamp": 1795224843,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -112,6 +112,125 @@
         }
       ],
       "icon": "icons/social-studio.svg"
+    },
+    {
+      "name": "@alonstech/dsh-weaver-e2e-author",
+      "title": {
+        "en": "Weaver E2E author"
+      },
+      "description": {
+        "en": "Write one new GISweaver end-to-end case in the shape the suite's reviewers accept, and check written specs against the same conventions: the tier prefix, the @route: tag, the tracked test import, tracker cleanup and named skipped steps. e2e_scaffold writes tests/regression/<lane>/<name>.spec.ts with the right imports for its tier and a body that throws until it is written; e2e_check lists violations by file and line. It reads and writes inside the gisweaver-e2e checkout only, runs no Playwright and contacts no network."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "weaver-e2e-author"
+      },
+      "metadata": {
+        "category": "platform",
+        "keywords": [
+          "gisweaver",
+          "e2e",
+          "playwright",
+          "test authoring"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795224843,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/weaver-e2e-author.svg"
+    },
+    {
+      "name": "@alonstech/dsh-weaver-e2e-gaps",
+      "title": {
+        "en": "Weaver E2E gaps"
+      },
+      "description": {
+        "en": "Reads the GISweaver end-to-end suite as a work queue: which product routes no active case proves, which cases are skipped rather than missing, what COVERAGE.md declares uncovered in prose, and which of those an open pull request already claims. The queue puts a free gap before a claimed one, so nobody picks up a scenario a colleague is already on. Read-only: it reads the checkout and GitHub and writes nothing anywhere."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "weaver-e2e-gaps"
+      },
+      "metadata": {
+        "category": "platform",
+        "keywords": [
+          "gisweaver",
+          "e2e",
+          "playwright",
+          "test coverage",
+          "gap analysis"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795224843,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/weaver-e2e-gaps.svg"
+    },
+    {
+      "name": "@alonstech/dsh-weaver-e2e-triage",
+      "title": {
+        "en": "Weaver E2E triage"
+      },
+      "description": {
+        "en": "Read the reports of one GISweaver end-to-end run and answer three questions: did it pass, what failed, and can this version be promoted. Shows the version and commit the run reports, per-suite and per-tier counts, the failing case titles with the first line of each error, the skipped case titles, and a verdict that is the suite's own gate: refuse when a suite did not run, anything failed, anything was skipped (a skipped step inside a passing case counts), or the report carries an error. Read-only: it never runs the suite and never writes."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "weaver-e2e-triage"
+      },
+      "metadata": {
+        "category": "platform",
+        "keywords": [
+          "gisweaver",
+          "e2e",
+          "playwright",
+          "nightly",
+          "triage"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795224843,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/weaver-e2e-triage.svg"
     },
     {
       "name": "@alonstech/dsh-weaver-market-intelligence",
@@ -140,7 +259,7 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1795150722,
+          "publishTimestamp": 1795224843,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -151,6 +270,45 @@
         }
       ],
       "icon": "icons/weaver-market-intel.svg"
+    },
+    {
+      "name": "@alonstech/dsh-weaver-merge-planner",
+      "title": {
+        "en": "Weaver merge planner"
+      },
+      "description": {
+        "en": "Plans the develop merge batch for the Weaver pull-request queue. It reads the local mirror, the cockpit's own merge-candidate classification, the loop's batch and event logs, and the local checkout, tests every candidate and every pair with git merge-tree, and answers which approved PRs merge together so the batch lands first time, in what order, which to hold back and why, and which batch can run next. Reads only local state: it never calls GitHub, never fetches, never merges, and never writes."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "weaver-merge-planner"
+      },
+      "metadata": {
+        "category": "platform",
+        "keywords": [
+          "pull requests",
+          "merge queue",
+          "develop",
+          "gisweaver"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795224843,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/weaver-merge-planner.svg"
     },
     {
       "name": "@alonstech/dsh-weaver-pr-cockpit",
@@ -178,8 +336,8 @@
       },
       "versions": [
         {
-          "version": "0.1.3",
-          "publishTimestamp": 1795150722,
+          "version": "0.1.5",
+          "publishTimestamp": 1795224843,
           "source": {
             "type": "npm",
             "registry": "https://npm.pkg.github.com"
@@ -190,6 +348,45 @@
         }
       ],
       "icon": "icons/weaver-pr-cockpit.svg"
+    },
+    {
+      "name": "@alonstech/dsh-weaver-review-pack",
+      "title": {
+        "en": "Weaver review pack"
+      },
+      "description": {
+        "en": "Prints the smallest context a reviewer needs for one Weaver pull request: the risk class and the paths that made it money, auth or permission work, the changed files grouped by area with line counts (generated files and lockfiles counted, not shown), the acceptance points of the linked issue, the last verdict's blocking findings with whether the new commits touch the lines they named, and a flag when a review finished at this head without a verdict. Reads only local state: never calls GitHub, never fetches, never writes."
+      },
+      "author": "Alonstech",
+      "repository": {
+        "url": "https://github.com/alonstech/dsh-plugins",
+        "directory": "weaver-review-pack"
+      },
+      "metadata": {
+        "category": "platform",
+        "keywords": [
+          "pull requests",
+          "code review",
+          "re-review",
+          "gisweaver"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795224843,
+          "source": {
+            "type": "npm",
+            "registry": "https://npm.pkg.github.com"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ],
+      "icon": "icons/weaver-review-pack.svg"
     }
   ]
 }

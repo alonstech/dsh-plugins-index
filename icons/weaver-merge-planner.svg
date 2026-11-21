@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36" role="img" aria-label="Weaver merge planner">
+  <g fill="none" stroke="#1f4f8f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 26h7"/>
+    <path d="M6 10h7"/>
+    <path d="M13 10v16"/>
+    <path d="M13 18h5"/>
+    <path d="M18 18h4"/>
+    <path d="M22 12h8"/>
+    <path d="M22 24h8"/>
+    <path d="M26 8v8"/>
+    <path d="M26 20v8"/>
+  </g>
+  <circle cx="26" cy="18" r="2.4" fill="#1f4f8f"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <!-- A page, and a pen nib writing its first line: the case an engineer is about to author. -->
+  <rect x="7.5" y="6" width="15.5" height="23" rx="1.5" fill="none" stroke="#1f4f8f" stroke-width="1.8"/>
+  <path d="M11 12H20M11 16H18" fill="none" stroke="#8fc0ff" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M13.8 27.4L18.2 19.4L22.2 23.9Z" fill="#1f4f8f" stroke="#1f4f8f" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="16.2" cy="25.3" r="0.85" fill="#8fc0ff"/>
+  <path d="M14.3 26.9L15.7 25.7" fill="none" stroke="#8fc0ff" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M13.7 27.6C12.2 27.1 10.6 27.7 8.8 27.2" fill="none" stroke="#5ee0a8" stroke-width="1.4" stroke-linecap="round"/>
+</svg>

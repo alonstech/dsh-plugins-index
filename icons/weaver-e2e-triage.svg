@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Weaver E2E triage">
+  <!-- A funnel sorting a night's results, and the promotion verdict it leaves behind. -->
+  <path d="M8.5 8h18l-7 9.5V27h-4v-9.5z" fill="none" stroke="#1f4f8f" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="14.3" cy="11.2" r="1.35" fill="#8fc0ff"/>
+  <circle cx="20.7" cy="11.2" r="1.35" fill="#8fc0ff"/>
+  <path d="M22.6 27.2l2.4 2.4 4.4-4.9" fill="none" stroke="#5ee0a8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
